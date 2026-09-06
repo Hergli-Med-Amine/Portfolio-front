@@ -1,0 +1,105 @@
+{
+    "id": "byd-local-site",
+    "title": "BYD Local Marketing Site",
+    "shortDescription": "BYD's local marketing site was static and hard-coded. I rebuilt it as a dynamic platform with a backoffice behind it.",
+    "fullDescription": "BYD is an electric vehicle brand, and its local marketing site started as a static page, every image and line of content hard-coded into the templates. I rebuilt it as a dynamic platform end to end, backoffice included.",
+    "tags": [
+        "Angular",
+        "PrimeNG",
+        "SCSS",
+        "Dynamic Content",
+        "Backoffice"
+    ],
+    "summaryImage": "/data/BYD-Local-Site/images/thumbnail.png",
+    "images": [],
+    "detailsV2": {
+        "header": {
+            "title": "BYD Local Marketing Site",
+            "subtitle": "Static → Dynamic · EV Brand Platform",
+            "image": "/data/BYD-Local-Site/images/landing-1.png",
+            "tags": [
+                "Angular",
+                "PrimeNG",
+                "Dynamic Content",
+                "Backoffice"
+            ]
+        },
+        "sections": [
+            {
+                "type": "text-only",
+                "style": "leveled",
+                "content": "BYD's local marketing site started as a static page, every image, text block and number hard-coded into the templates. Any change meant editing code, so the team behind the brand had no way to update the site themselves."
+            },
+            {
+                "type": "image-only",
+                "style": "leveled",
+                "image": "/data/BYD-Local-Site/images/landing-2.png",
+                "imageAlt": "The BYD marketing site landing page"
+            },
+            {
+                "type": "text-only",
+                "style": "leveled",
+                "content": "I took on turning that static site into a dynamic platform. The goal was to move content out of the code and into data that non-developers could manage, without losing the clean, brand-first look of the public site."
+            },
+            {
+                "type": "image-right-text-left",
+                "style": "leveled",
+                "content": "The core of the solution is a backoffice that gives site admins control over content. News, contacts, agencies, car models: each has its own management screen to add, edit, remove and reorder, no code required.",
+                "image": "/data/BYD-Local-Site/images/nav-1.png",
+                "imageAlt": "Backoffice navigation for managing site content"
+            },
+            {
+                "type": "image-left-text-right",
+                "style": "leveled",
+                "content": "The public site reads all of it from dynamic data now. Sections render from structured content, so a change made in the backoffice shows up on the live site as soon as it's published.",
+                "image": "/data/BYD-Local-Site/images/about-1.png",
+                "imageAlt": "Dynamic content driving the public site"
+            },
+            {
+                "type": "text-only",
+                "style": "leveled",
+                "content": "News gets its own management flow. Admins can publish, unpublish and edit announcements, and the marketing page picks up the latest stories automatically, no developer needed for a simple update."
+            },
+            {
+                "type": "image-only",
+                "style": "leveled",
+                "image": "/data/BYD-Local-Site/images/news-1.png",
+                "imageAlt": "News managed through the backoffice"
+            },
+            {
+                "type": "text-only",
+                "style": "leveled",
+                "content": "As an EV brand, the site also needed to make the case for going electric. The economy simulator handles that: a calculator that lets visitors compare costs and see the savings of driving an EV, with every parameter configurable from the backoffice."
+            },
+            {
+                "type": "image-right-text-left",
+                "style": "leveled",
+                "content": "Car models are managed the same way. Each model's images, videos, specs and pricing are structured content in the backoffice, so the lineup can grow and change without a code deploy.",
+                "image": "/data/BYD-Local-Site/images/models-1.png",
+                "imageAlt": "BYD car models configured through the backoffice"
+            },
+            {
+                "type": "image-only",
+                "style": "leveled",
+                "image": "/data/BYD-Local-Site/images/models-2.png",
+                "imageAlt": "A BYD model page rendered from dynamic data"
+            },
+            {
+                "type": "image-left-text-right",
+                "style": "leveled",
+                "content": "Agencies and contacts work the same way. Showrooms, service partners and contact points are managed as data, so the dealer network stays accurate as it grows.",
+                "image": "/data/BYD-Local-Site/images/contacts-1.png",
+                "imageAlt": "Agencies and contacts managed as dynamic data"
+            },
+            {
+                "type": "text-only",
+                "style": "leveled",
+                "content": "The result is a site the team can run without a developer for day-to-day changes. News, contacts, agencies, models, media and the simulator are all editable from the backoffice, and the public site keeps the same polished, brand-first look it had before."
+            }
+        ],
+        "footer": {
+            "note": "End-to-end rebuild of a static BYD marketing site into a dynamic platform with a content backoffice.",
+            "links": []
+        }
+    }
+}

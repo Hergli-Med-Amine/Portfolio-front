@@ -1,0 +1,102 @@
+{
+    "id": "lsat-phonetech",
+    "title": "LSAT B2B Phone Platform",
+    "shortDescription": "A general B2B e-commerce platform, deployed for LSAT Group, a Tunisian phone distributor selling through three companies.",
+    "fullDescription": "We built a general B2B e-commerce platform for distributors, then rolled it out for LSAT Group. Resellers log in to browse a shared catalogue, place orders and follow their invoices across all three group companies.",
+    "tags": [
+        "Angular",
+        "PrimeNG",
+        "SCSS",
+        "B2B E-commerce",
+        "Multi-company"
+    ],
+    "summaryImage": "/data/LSAT-PhoneTech/images/thumbnail.png",
+    "images": [],
+    "detailsV2": {
+        "header": {
+            "title": "LSAT B2B Phone Distribution Platform",
+            "subtitle": "General B2B E-commerce · LSAT Group Variant",
+            "image": "/data/LSAT-PhoneTech/images/landing-1.png",
+            "tags": [
+                "Angular",
+                "PrimeNG",
+                "B2B E-commerce",
+                "Multi-company"
+            ]
+        },
+        "sections": [
+            {
+                "type": "text-only",
+                "style": "leveled",
+                "content": "We set out to build a general B2B e-commerce platform, something a distributor could pick up and run their reseller business on, not a one-off store. LSAT Group is the variant covered here: a phone distributor in Tunisia that sells through three companies, NEW TECH, ONE TEL and LSAT, each with its own brand lineup. The platform treats that as first-class: one storefront, one login, but every product, order and invoice stays attributed to the company it belongs to."
+            },
+            {
+                "type": "image-only",
+                "style": "leveled",
+                "image": "/data/LSAT-PhoneTech/images/landing-2.png",
+                "imageAlt": "The LSAT storefront landing page with categories and brands"
+            },
+            {
+                "type": "image-right-text-left",
+                "style": "leveled",
+                "content": "Resellers sign in to a private storefront, there's no public catalogue. Pricing, availability and order history are all tied to the account, so what each reseller sees is their own view of the business.",
+                "image": "/data/LSAT-PhoneTech/images/login-1.png",
+                "imageAlt": "The reseller login screen"
+            },
+            {
+                "type": "image-left-text-right",
+                "style": "leveled",
+                "content": "The catalogue is the heart of it: hundreds of references across Samsung, Xiaomi, Huawei, Oppo and Nokia, filtered by price, family and availability, with stock states shown up front. A guided brand-then-family search sits on top, so a reseller who wants Xiaomi smartphones and nothing else gets there in two clicks.",
+                "image": "/data/LSAT-PhoneTech/images/search-1.png",
+                "imageAlt": "The product catalogue with price, family and availability filters"
+            },
+            {
+                "type": "image-only",
+                "style": "leveled",
+                "image": "/data/LSAT-PhoneTech/images/product-1.png",
+                "imageAlt": "A product detail page with brand, model and colour variants"
+            },
+            {
+                "type": "image-right-text-left",
+                "style": "leveled",
+                "content": "Product pages carry the details a reseller orders on: brand, model, colour variants, price, stock and warranty. Variants are selectable inline, so a single model page covers every configuration without jumping between listings.",
+                "image": "/data/LSAT-PhoneTech/images/product-2.png",
+                "imageAlt": "Variant selection on a product detail page"
+            },
+            {
+                "type": "text-only",
+                "style": "leveled",
+                "content": "The cart is built for B2B, not retail. Every line shows price HT, price TTC and any discount, the summary breaks out total HT, total discount, net HT and TTC, and checkout is a deliberate confirmation step, not a payment flow. Ordering is account-based, settled against the reseller's terms with the group."
+            },
+            {
+                "type": "image-only",
+                "style": "leveled",
+                "image": "/data/LSAT-PhoneTech/images/cart-1.png",
+                "imageAlt": "The cart with HT, TTC and discount breakdown per line"
+            },
+            {
+                "type": "image-left-text-right",
+                "style": "leveled",
+                "content": "After an order is placed, the reseller follows it from the same account. Order tracking lists every order by company, date and amount, with a status from pending to confirmed and an external status showing how it synced with the group's back-office, B2B or NAV.",
+                "image": "/data/LSAT-PhoneTech/images/documents-1.png",
+                "imageAlt": "Order tracking with per-company status and external sync state"
+            },
+            {
+                "type": "image-right-text-left",
+                "style": "leveled",
+                "content": "Invoices live in the same place. Resellers filter by company and date, see amount HT, amount TTC, due date and outstanding balance, and download the invoice document directly, no email back-and-forth with accounting.",
+                "image": "/data/LSAT-PhoneTech/images/documents-2.png",
+                "imageAlt": "The invoices section with amounts, due dates and downloadable documents"
+            },
+            {
+                "type": "text-only",
+                "style": "leveled",
+                "content": "The result runs LSAT Group's reseller channel end to end, catalogue, search, cart, ordering, tracking and invoices, across three companies from one account. And because it was built as a general B2B product, the same platform drops onto the next distributor with their own catalogue and companies."
+            }
+        ],
+        "footer": {
+            "note": "A general B2B e-commerce platform, deployed for LSAT Group's multi-company phone distribution business in Tunisia.",
+            "links": []
+        }
+    }
+}

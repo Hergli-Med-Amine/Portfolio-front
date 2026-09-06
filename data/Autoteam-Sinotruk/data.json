@@ -1,0 +1,96 @@
+{
+    "id": "autoteam-sinotruk",
+    "title": "Autoteam Sinotruk",
+    "shortDescription": "Rebranding Autoteam's SAV booking app for a new automotive client, Sinotruk. Design in Figma, build in Angular.",
+    "fullDescription": "Sinotruk needed Autoteam's proven SAV booking app to feel like their own, not a reskinned template. I led the rebrand end to end, from the Figma brand system to the Angular build.",
+    "tags": [
+        "Angular",
+        "Figma",
+        "PrimeNG",
+        "Design Systems"
+    ],
+    "summaryImage": "/data/Autoteam-Sinotruk/images/thumbnail.png",
+     "images": [],
+    "detailsV2": {
+        "header": {
+            "title": "Autoteam Sinotruk",
+            "subtitle": "Booking App Brand Adaptation",
+            "image": "/data/Autoteam-Sinotruk/images/landing-01.png",
+            "tags": [
+                "Angular",
+                "Figma",
+                "Design Systems"
+            ]
+        },
+        "sections": [
+            {
+                "type": "text-only",
+                "style": "leveled",
+                "content": "Autoteam's flagship product is a Service & Appointment (SAV) app that automotive brands use to run car-servicing bookings. Bringing Sinotruk on board meant reskinning the entire product around a new brand identity, screen by screen, while keeping the booking flow that already worked."
+            },
+            {
+                "type": "image-only",
+                "style": "leveled",
+                "image": "/data/Autoteam-Sinotruk/images/landing-02.png",
+                "imageAlt": "Landing screen adapted to the Sinotruk brand"
+            },
+            {
+                "type": "text-only",
+                "style": "leveled",
+                "content": "The challenge was rebranding without breaking usability, making Sinotruk's identity feel built into the app rather than stuck on top of it. I handled both sides: the visual language in Figma, and the Angular implementation that shipped it."
+            },
+            {
+                "type": "image-right-text-left",
+                "style": "leveled",
+                "content": "Rather than reskinning each screen by hand, the rebrand introduced a shared set of design tokens and components, so the Sinotruk identity stayed consistent from the landing page to the final booking confirmation.",
+                "image": "/data/Autoteam-Sinotruk/images/landing-03.png",
+                "imageAlt": "Brand system applied across product screens"
+            },
+            {
+                "type": "text-only",
+                "style": "leveled",
+                "content": "The design leans on one idea: hierarchy through brightness. Each layer sits slightly brighter than the one below it, backgrounds in a cool light gray, cards in white on top, interactive elements lifted further with subtle shadows. It keeps the interface easy to read at a glance."
+            },
+            {
+                "type": "image-left-text-right",
+                "style": "leveled",
+                "content": "The brand color, a deep teal, is used sparingly: primary buttons, active states, selected cards, and section anchors. Everywhere else the interface stays neutral, so the color still stands out when it shows up.",
+                "image": "/data/Autoteam-Sinotruk/images/landing-04.png",
+                "imageAlt": "Deep teal accent applied only to decision points"
+            },
+            {
+                "type": "text-only",
+                "style": "leveled",
+                "content": "Two typefaces cover the interface. Bricolage Grotesque handles headings, distinctive enough to avoid the generic dashboard look without being loud. DM Sans handles body copy and UI labels, kept clean and legible. Pairing the two gives some visual contrast without leaning on color to do it."
+            },
+            {
+                "type": "image-only",
+                "style": "leveled",
+                "image": "/data/Autoteam-Sinotruk/images/booking-step-1-s1-01.png",
+                "imageAlt": "First step of the car servicing booking flow"
+            },
+            {
+                "type": "image-right-text-left",
+                "style": "leveled",
+                "content": "The booking flow is the core of the product. From selecting a service to confirming an appointment, each step follows the same hierarchy: the page stays quiet, the current decision gets the accent color, and everything else recedes.",
+                "image": "/data/Autoteam-Sinotruk/images/booking-step-4-01.png",
+                "imageAlt": "Final step of the booking journey"
+            },
+            {
+                "type": "image-only",
+                "style": "leveled",
+                "image": "/data/Autoteam-Sinotruk/images/signin-01.png",
+                "imageAlt": "Sign-in screen carrying the Sinotruk identity"
+            },
+            {
+                "type": "text-only",
+                "style": "leveled",
+                "content": "On the implementation side, it was a straightforward Angular migration: design tokens replaced hard-coded colors, shared components were updated to the new identity, and the existing booking logic didn't need to change. The result is a Sinotruk-branded app running on the same booking flow Autoteam already had in production."
+            }
+        ],
+        "footer": {
+            "note": "End-to-end rebrand and implementation of Autoteam's SAV product for its new client, Sinotruk.",
+            "links": []
+        }
+    }
+}
